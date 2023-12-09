@@ -14,8 +14,8 @@ namespace Main
     {
         static void Main()
         {
-            PagePattern pagePattern = new PagePattern("https://www.globalsqa.com/angularJs-protractor/SearchFilter/");
-            pagePattern.Search_by_Payee_Name("HouseRent");
+            // PagePattern pagePattern = new PagePattern("https://www.globalsqa.com/angularJs-protractor/SearchFilter/");
+            // pagePattern.Search_by_Account("!");
         }
     }
 }
