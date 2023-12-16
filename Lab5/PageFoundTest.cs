@@ -8,7 +8,7 @@ namespace Lab5
         [TestMethod]
         public void PageTestTrue()
         {
-            //Arrange
+            ///Arrange
             var drv = new ChromeDriver();
             string url = "https://www.globalsqa.com/angularJs-protractor/SearchFilter/";
             PagePattern pagePattern = new PagePattern(url,drv);
